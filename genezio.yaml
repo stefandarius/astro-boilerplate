@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: build
+    scripts:
+        build: npm run build
+        deploy: npm install
+    subdomain: astro-boilerplate
+name: astro-boilerplate
+region: us-east-1
+yamlVersion: 2
